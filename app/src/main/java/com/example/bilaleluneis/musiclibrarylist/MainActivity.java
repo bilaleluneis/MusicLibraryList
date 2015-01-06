@@ -40,6 +40,11 @@ public class MainActivity extends ActionBarActivity {
 
     }
 
+    /**
+     *
+     * @return ListAdapter containing the list of songs in
+     * user's Android Music Library
+     */
     private ListAdapter getMusicLibraryList(){
 
         String[] from = {MediaStore.MediaColumns.TITLE};
